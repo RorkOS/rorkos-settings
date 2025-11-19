@@ -1,0 +1,34 @@
+name: rorkos_settings
+description: RorkOS System Settings
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  shared_preferences: ^2.2.2
+  process_run: ^0.12.5+3
+  url_launcher: ^6.1.11
+  audioplayers: ^5.2.1
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.17.2
+  google_sign_in: ^6.1.5
+  cloud_firestore: ^4.13.2
+  http: ^1.1.0
+  archive: ^3.3.7
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
